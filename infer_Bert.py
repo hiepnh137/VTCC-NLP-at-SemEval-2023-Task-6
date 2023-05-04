@@ -6,7 +6,7 @@ from transformers import BertModel
 from tqdm import tqdm
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-model = BertModel.from_pretrained("/storage-nlp/huggingface/law-ai/InLegalBERT").to(device)
+model = BertModel.from_pretrained("law-ai/InLegalBERT").to(device)
 
 def load_data(dataset='train'):
     data = open(f'datasets/pubmed-20k-lsp/{dataset}_scibert.txt', 'r').read().split('\n')
