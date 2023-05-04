@@ -5,8 +5,8 @@ from transformers import BertTokenizer
 import json
 import os
 
-# BERT_VOCAB = "/storage-nlp/huggingface/law-ai/InLegalBERT"
-BERT_VOCAB = "/storage-nlp/huggingface/bert-base-uncased"
+# BERT_VOCAB = "law-ai/InLegalBERT"
+BERT_VOCAB = "bert-base-uncased"
 
 MAX_SEQ_LENGTH = 127
 WINDOW_SIZE = 4
