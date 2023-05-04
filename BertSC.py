@@ -29,7 +29,7 @@ MODEL_CLASSES = {
 
 model_type = 'bert' ###--> CHANGE WHAT MODEL YOU WANT HERE!!! <--###
 model_class, tokenizer_class, config_class = MODEL_CLASSES[model_type]
-model_name = '/storage-nlp/huggingface/law-ai/InLegalBERT'
+model_name = 'law-ai/InLegalBERT'
 tokenizer = BertTokenizer.from_pretrained(model_name)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
