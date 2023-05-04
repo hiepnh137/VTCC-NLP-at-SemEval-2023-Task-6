@@ -13,7 +13,7 @@ lang_cls = spacy.util.get_lang_class(config["nlp"]["lang"])
 nlp = lang_cls.from_config(config)
 nlp.from_bytes(bytes_data)
 # nlp = en_legal_ner_sm.load()
-tokenizer = AutoTokenizer.from_pretrained("/storage-nlp/huggingface/law-ai/InLegalBERT")
+tokenizer = AutoTokenizer.from_pretrained("law-ai/InLegalBERT")
 def get_data(data='train'):
     dataset = json.loads(open(f'data/{data}.json', 'r').read())
     filtered_dataset = []
