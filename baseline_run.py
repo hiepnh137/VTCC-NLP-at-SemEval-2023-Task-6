@@ -18,7 +18,7 @@ import numpy as np
 np.random.seed(42)
 warnings.filterwarnings('ignore')
 # BERT_VOCAB = "bert-base-uncased"
-BERT_MODEL = "/storage-nlp/huggingface/law-ai/InLegalBERT"
+BERT_MODEL = "law-ai/InLegalBERT"
 
 config = {
     "bert_model": BERT_MODEL,
