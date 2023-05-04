@@ -1,6 +1,8 @@
 # SemEval2023-Task6-Rhetorical-Roles
-## Dependency
-
+## Install dependencies
+```
+  pip install -r requirements.txt
+```
 ## How to run the code
 For training, you can run as the follows:
 ```
