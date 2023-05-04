@@ -64,8 +64,8 @@ def write_in_hsln_format(input_json,hsln_format_txt_dirpath,tokenizer):
 if __name__=="__main__":
     [_,input_dir, prediction_output_json_path, model_path] = sys.argv
 
-    BERT_VOCAB = "../../Huggingface/bert-base-uncased"
-    BERT_MODEL = "../../Huggingface/bert-base-uncased"
+    BERT_VOCAB = "bert-base-uncased"
+    BERT_MODEL = "bert-base-uncased"
     tokenizer = BertTokenizer.from_pretrained(BERT_VOCAB, do_lower_case=True)
     
     config_path = model_path[-13:]+'config.json'
