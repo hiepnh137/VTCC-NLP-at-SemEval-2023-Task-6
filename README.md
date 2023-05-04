@@ -6,10 +6,10 @@
 ## How to run the code
 For training, you can run as the follows:
 ```
-  bash train_lsp.sh
+  bash lsp.sh
   bash train.sh
 ```
-For testing, the command may like this:
+To run the inference,, run this command:
 ```
-  bash evaluate.sh
+python infer_new_graph.py custom_processed_input.json output_json_path model_path
 ```
