@@ -1,4 +1,5 @@
-# SemEval2023-Task6-Rhetorical-Roles
+# VTCC-NLP-at-SemEval-2023-Task-6
+This repository contains the source code for the models used for VTCC-NLP team's submission for SemEval-2023 Task 6 “Rhetorical Roles Prediction”. The model is described in the paper "VTCC-NLP at SemEval-2023 Task 6:Long-Text Representation Based on Graph Neural Network for Rhetorical Roles Prediction".
 ## Install dependencies
 ```
   pip install -r requirements.txt
